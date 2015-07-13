@@ -14,6 +14,8 @@
 		24EA791E1B53C310000A716A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EA791D1B53C310000A716A /* Images.xcassets */; };
 		24EA79211B53C310000A716A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24EA791F1B53C310000A716A /* LaunchScreen.xib */; };
 		24EA792D1B53C310000A716A /* LSClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA792C1B53C310000A716A /* LSClockTests.m */; };
+		24EA79381B53C355000A716A /* LSClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA79371B53C355000A716A /* LSClock.m */; };
+		24EA793A1B53CED9000A716A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 24EA79391B53CED9000A716A /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		24EA79261B53C310000A716A /* LSClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EA792B1B53C310000A716A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24EA792C1B53C310000A716A /* LSClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSClockTests.m; sourceTree = "<group>"; };
+		24EA79361B53C355000A716A /* LSClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSClock.h; sourceTree = "<group>"; };
+		24EA79371B53C355000A716A /* LSClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSClock.m; sourceTree = "<group>"; };
+		24EA79391B53CED9000A716A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				24EA79151B53C310000A716A /* AppDelegate.m */,
 				24EA79171B53C310000A716A /* ViewController.h */,
 				24EA79181B53C310000A716A /* ViewController.m */,
+				24EA79361B53C355000A716A /* LSClock.h */,
+				24EA79371B53C355000A716A /* LSClock.m */,
+				24EA79391B53CED9000A716A /* image.png */,
 				24EA791A1B53C310000A716A /* Main.storyboard */,
 				24EA791D1B53C310000A716A /* Images.xcassets */,
 				24EA791F1B53C310000A716A /* LaunchScreen.xib */,
@@ -202,6 +210,7 @@
 				24EA791C1B53C310000A716A /* Main.storyboard in Resources */,
 				24EA79211B53C310000A716A /* LaunchScreen.xib in Resources */,
 				24EA791E1B53C310000A716A /* Images.xcassets in Resources */,
+				24EA793A1B53CED9000A716A /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				24EA79191B53C310000A716A /* ViewController.m in Sources */,
 				24EA79161B53C310000A716A /* AppDelegate.m in Sources */,
 				24EA79131B53C310000A716A /* main.m in Sources */,
+				24EA79381B53C355000A716A /* LSClock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
